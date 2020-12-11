@@ -15,7 +15,7 @@ body{
     height: 100vh;
     align-items: center;
     justify-content: center;
-    background-color: #eee;
+    background-color: rgb(156, 147, 204);
     padding: 0 8rem;
 }
 
@@ -23,11 +23,13 @@ body{
     width: 100%;
     max-width: 98rem;
     padding: 3rem;
+    margin: 4rem 0;
     background-color: #fff;
     box-shadow: 0 1.4rem 8rem rgba(0,0,0,.2);
     display: flex;
     align-items: center;
     border-radius: .8rem;
+
 }
 .my-image{
     min-width: 8rem;
@@ -47,25 +49,47 @@ body{
 .content{
     letter-spacing: 2px;
 }
-.my-skills{
-    background-color: darkslategray;
-    margin: 5rem 0;
+
+.skills-text{
+    margin: 0 .8rem 0  0;
     height: 50vh;
-    width: 40vw;
+    padding: .2rem 5rem;
+    font-size: x-large;
+    color: black;
+    letter-spacing: 2px;
+}
+.skills-text h1{
+    color: white;
+    padding: 0 0 1rem 0;
+    font-size: 80px;
+    text-align: center;
+}
+
+.my-skills{
+    margin: -8rem auto 5rem auto;
+    height: 40vh;
+    width: 80vw;
     display: grid;
-    grid-template-columns: 2fr 2fr;
-    padding: 3rem 8rem;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding: 2rem 6rem;
+    border-radius: 8px;
 }
 .my-skills img{
     width: 5rem;
     height: 5rem;
-    padding: .8rem 0; 
+    padding: .8rem .8rem; 
 }
-
 
 .skills-images img{
     padding: .8rem;
     
+}
+.my-footer{
+    text-align: center;
+    letter-spacing: 2px;
+    color: white;
+    padding: 4rem 0;
+    font-size: 20px;
 }
 @media screen and (max-width:1068px){
     .main-card{
